@@ -6,7 +6,7 @@ SESSION_CONFIGS = [
         name='prudence',
         display_name="prudence",
         app_sequence=['prudence'],
-        num_demo_participants=1,
+        num_demo_participants=3,
     ),
 ]
 
