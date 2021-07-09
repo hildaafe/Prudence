@@ -255,8 +255,6 @@ class Lottery(Page):
     form_model = 'player'
     form_fields = ["get_1", "get_2", "get_3", "get_4", "get_5", "get_6"]
 
-class EndPage(Page):
-    pass
 
-page_sequence = [Demographics, Page1C, Lottery,EndPage]
+page_sequence = [Demographics, Page1C, Lottery]
 
